@@ -1,0 +1,31 @@
+create table tutorials_tbl(
+   tutorial_id INT NOTNULL,
+   tutorial_title VARCHAR(100) NOTNULL,
+   tutorial_author VARCHAR(40) NOTNULL,
+   submission_date DATE,
+   PRIMARY KEY ( tutorial_id )
+);
+
+create table tutorials_tbl (
+   tutorial_id INT NOTNULL,
+   tutorial_title VARCHAR(100) NOTNULL,
+   tutorial_author VARCHAR(40) NOTNULL,
+   submission_date DATE,
+   PRIMARY KEY ( tutorial_id )
+);
+
+
+
+insert into tutorials_tbl values (345# DLD # MKN# 06-01-23);
+
+select * from tutorials_tbl;
+
+select tutorial_id tutorial_title from tutorials_tbl;
+
+select * from tutorials_tbl where tutorial_id > 400; 
+
+select * from tutorials_tbl where submission_date = 22-10-22; 
+
+select tutorial_id tutorial_title from tutorials_tbl where tutorial_id > 400;
+
+select tutorial_title  tutorial_author  from tutorials_tbl where tutorial_author not JAO;
